@@ -177,3 +177,37 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 55%;
 }
+
+@media (min-width: 278px) and (max-width:285px){
+.eye {
+    position: absolute;
+    top: 115px;
+    left: 190px;
+    width: 35px;
+}
+.icon-text {
+    color: #5C636F;
+    font-size: 12px;
+    margin-left: 14px;
+
+}
+.toogle {
+    margin-top: 2px;
+}
+}
+@media (min-width: 318px) and (max-width:330px){
+    .eye {
+    position: absolute;
+    top: 115px;
+    left: 225px;
+    width: 35px;
+}
+.icon-text {
+    color: #5C636F;
+    font-size: 13px;
+    margin-left: 8px;
+}
+.toogle {
+    margin-top: 3px;
+}
+}
